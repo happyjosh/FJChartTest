@@ -36,6 +36,7 @@ import ChartWrapper from './ChartWrapper.tsx';
 import KitChart from './KitChart.tsx';
 import TestEChart from './TestEChart.tsx';
 import TestEChart2 from "./TestEChart2.tsx";
+import TestEChart3 from './TestEChart3.tsx';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -251,8 +252,9 @@ function App(): React.JSX.Element {
         {/*<Test2 />*/}
         {/*<ChartWrapper />*/}
         {/*<KitChart />*/}
-        <TestEChart />
+        {/*<TestEChart />*/}
         {/*<TestEChart2 />*/}
+        <TestEChart3 />
       </View>
     </SafeAreaView>
   );
